@@ -4,10 +4,17 @@
 }
 body {
     background-color: hsl(212, 45%, 89%);
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 650px;
+    font-family: 'Outfit', sans-serif;
 }
 .design-container {
-    
+    display: flex;
+    align-items:center;
+    height: 650px;
 }
 .design {
     background-color: hsl(0, 0%, 100%);
@@ -15,12 +22,14 @@ body {
     height: 480px;
     border-radius: 15px;
     padding-top: 15px ;
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .image-qr-code {
     width: 290px;
     border-radius: 10px;
-    
+    justify-content: center;
 }
 .design-text {
     padding: 0 25px 0 25px;
