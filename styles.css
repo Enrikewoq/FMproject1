@@ -14,7 +14,7 @@ body {
 .design-container {
     display: flex;
     align-items:center;
-    height: 650px;
+    min-height: 100vh;
 }
 .design {
     background-color: hsl(0, 0%, 100%);
